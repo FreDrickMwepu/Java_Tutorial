@@ -1,0 +1,18 @@
+{
+     "configurations": [
+          {
+               "type": "java",
+               "name": "Main2",
+               "request": "launch",
+               "mainClass": "Main2",
+               "projectName": "Java_Tutorial_bab96cb2"
+          },
+          {
+               "name": "Attach to Chrome",
+               "port": 9222,
+               "request": "attach",
+               "type": "chrome",
+               "webRoot": "${workspaceFolder}"
+          }
+     ]
+}
