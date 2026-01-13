@@ -4,13 +4,11 @@ public class Main2 {
      static int x = 56; 
      public static void main(String[] args) {
           // This is a single line comment 
-
           /* 
                This is a multiple line comment
           */
           System.out.print("\nHello World");
           System.out.println("\nHello World");
-          
           
           // Usage of variables in java
           // int, float, double, String, char, boolean
@@ -23,13 +21,13 @@ public class Main2 {
           char c = 'A';
           String s = "Welcome to my house party";
           System.out.print(w);
-          int x;
+          int x = 0;
           System.out.print(x);
 
           Scanner sc = new Scanner(System.in);
           System.out.println("Enter a value: ");
-          int x = sc.nextint();
-          double d = sc.nextdoublint();
+          x = sc.nextInt();
+          double d = sc.nextDouble();
           System.out.println("you entered "+x);
           sc.close();
 
