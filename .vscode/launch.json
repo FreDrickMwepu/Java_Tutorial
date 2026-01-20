@@ -2,6 +2,13 @@
      "configurations": [
           {
                "type": "java",
+               "name": "Main5",
+               "request": "launch",
+               "mainClass": "Conditions.Main5",
+               "projectName": "Java_Tutorial_bab96cb2"
+          },
+          {
+               "type": "java",
                "name": "Main2",
                "request": "launch",
                "mainClass": "Main2",
