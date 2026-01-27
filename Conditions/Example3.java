@@ -4,7 +4,7 @@ public class Example3 {
      public static void main(String[] args) {
           Scanner sc = new Scanner(System.in);
           int grade = sc.nextInt();
-          String classification = swtich(grade) {
+          String classification = switch(grade) {
                case 1, 2 -> "Distinction";
                case 3, 4 -> "Merit";
                case 5, 6 -> "Credit";
