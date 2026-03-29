@@ -10,9 +10,9 @@ public class Main1 {
 
           if (vowel.contains(userInput)) {
                System.out.print("The word contains a vowel");
-          } ifelse
+          }
           else {
-               System.out.print(" Invalid Input, Please try again")
+               System.out.print(" Invalid Input, Please try again");
           }
      }
 }

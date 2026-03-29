@@ -1,3 +1,5 @@
+package Conditions;
+
 import java.util.Scanner;
 
 public class Example2 {
@@ -7,21 +9,21 @@ public class Example2 {
           int marks = sc.nextInt();
 
           if (marks <= 39) {
-               System.out.print("You got " + marks + "%" ", which is an D" + ". That is Unsatisfactory");
-          } if else (marks >= 40 && marks <= 49) {
-               System.out.print("You got " + marks + "%" ", which is an D+" + ". That is Satisfactory");
-          }if else (marks >= 50 && marks <= 55) {
-               System.out.print("You got " + marks + "%" ", which is an C" + ". That is a Credit");
-          } if else (marks >= 56 && marks <= 61) {
-               System.out.print("You got " + marks + "%" ", which is an C+" + ". That is an Upper Credit");
-          } if else (marks >= 62 && marks <= 67) {
-               System.out.print("You got " + marks + "%" ", which is an B" + ". That is a Merit");
-          } if else (marks >= 68 && marks <= 75) {
-               System.out.print("You got " + marks + "%" ", which is an B+" + ". That is an Upper Merit");
-          } if else (marks >= 76 && marks <= 85) {
-               System.out.print("You got " + marks + "%" ", which is an A" + ". That is a Distinction");
-          } if else (marks >= 86 && marks <= 100) {
-               System.out.print("You got " + marks + "%" ", which is an A+" + ". That is an Upper Distinction");
+               System.out.print("You got " + marks + "%" + ", which is an D" + ". That is Unsatisfactory");
+          } else if (marks >= 40 && marks <= 49) {
+               System.out.print("You got " + marks + "%" + ", which is an D+" + ". That is Satisfactory");
+          } else if (marks >= 50 && marks <= 55) {
+               System.out.print("You got " + marks + "%" + ", which is an C" + ". That is a Credit");
+          } else if (marks >= 56 && marks <= 61) {
+               System.out.print("You got " + marks + "%" + ", which is an C+" + ". That is an Upper Credit");
+          } else if (marks >= 62 && marks <= 67) {
+               System.out.print("You got " + marks + "%" + ", which is an B" + ". That is a Merit");
+          } else if (marks >= 68 && marks <= 75) {
+               System.out.print("You got " + marks + "%" + ", which is an B+" + ". That is an Upper Merit");
+          } else if (marks >= 76 && marks <= 85) {
+               System.out.print("You got " + marks + "%" + ", which is an A" + ". That is a Distinction");
+          } else if (marks >= 86 && marks <= 100) {
+               System.out.print("You got " + marks + "%" + ", which is an A+" + ". That is an Upper Distinction");
           } 
 
      }
